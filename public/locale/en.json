@@ -1,0 +1,121 @@
+{
+    "navbar": {
+        "linkedin": "LinkedIn",
+        "code": "Source Code",
+        "themes": {
+            "system": "System",
+            "dark": "Dark theme",
+            "light": "Light theme"
+        },
+        "print": "Print PDF",
+        "pl": "Polski",
+        "en": "English"
+    },
+    "page": {
+        "title": "Title.",
+        "sections": {
+            "contactInfo": "Contact Info",
+            "language": "Languages",
+            "hobbies": "Hobbies/Interests",
+            "education": "Education",
+            "skills": {
+                "name": "Skills",
+                "programming": "Programming",
+                "frameworks": "Frameworks",
+                "technologies": "Technologies"
+            },
+            "work": "Job History"
+        },
+        "languages": {
+            "pl": {
+                "name": "Polish",
+                "description": "Language level/Certificate."
+            },
+            "jp": {
+                "name": "Japanese",
+                "description": "Language level/Certificate."
+            }
+        },
+        "hobbies": {
+            "hobby1": {
+                "name": "Hobby 1",
+                "description": "Hobby 1 description."
+            },
+            "hobby2": {
+                "name": "Hobby 2",
+                "description": "Hobby 2 description."
+            },
+            "hobby3": "Hobby without description"
+        },
+        "education": {
+            "eng": {
+                "name": "First degree",
+                "duration": "2017 - 2021",
+                "specialization": "Specialization",
+                "university": "University name"
+            },
+            "master": {
+                "name": "Second degree",
+                "duration": "2022 - 2024",
+                "specialization": "Specialization",
+                "university": "University name"
+            }
+        },
+        "skills": {
+            "programming": {
+                "skill1": {
+                    "name": "Skill 1",
+                    "description": "Skill 1 description.",
+                    "level": "Level"
+                },
+                "skill2": {
+                    "name": "Skill 2",
+                    "description": "Skill 2 description.",
+                    "level": "Level"
+                },
+                "skill3": {
+                    "name": "Skill without description",
+                    "level": "Level"
+                }
+            },
+            "frameworks": {
+                "skill4": {
+                    "name": "Framework 1",
+                    "description": "Framework 1 description.",
+                    "level": "Level"
+                },
+                "skill5": {
+                    "name": "Framework without description",
+                    "level": "Level"
+                }
+            },
+            "technologies": {
+                "skill6": {
+                    "name": "Technology 1",
+                    "description": "Technology 1 description.",
+                    "level": "Level"
+                },
+                "skill7": {
+                    "name": "Technology without description",
+                    "level": "Level"
+                }
+            }
+        },
+        "work": {
+            "1": {
+                "startDate": "Start date",
+                "endDate": "End date",
+                "position": "Position",
+                "company": "Company",
+                "description": "Job description."
+            } ,
+            "2": {
+                "startDate": "Start date",
+                "endDate": "End date",
+                "position": "Position",
+                "company": "Company",
+                "description": "Job description."
+            }
+        }
+    }
+}

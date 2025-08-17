@@ -1,0 +1,93 @@
+header {
+    align-items: center;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+header.darkTheme {
+    background-color: rgb(52, 101, 164);
+}
+
+header.lightTheme {
+    background-color: rgb(104, 202, 255);
+}
+
+.left-nav {
+    float: left;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.right-nav {
+    float: right;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.center-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.tooltip-right, .tooltip-left {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(51, 51, 71);
+    color: aliceblue;
+    text-align: center;
+    border-radius: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top: 80%;
+}
+
+.tooltip-left {
+    margin-left: -80px;
+}
+
+.img-link {
+    cursor: pointer;
+    margin-right: 5px;
+    max-height: 30px;
+}
+
+img {
+    height: 30px;
+}
+
+.img-link:hover .tooltip-left, .img-link:hover .tooltip-right{
+    visibility: visible;
+}
+
+.selectable.lightTheme {
+    filter: invert(100%);
+}
+
+.img-link:hover .selectable.lightTheme {
+    filter: invert(100%) sepia(0%) saturate(644%) hue-rotate(214deg) brightness(104%) contrast(65%);
+}
+
+.img-link:hover .selectable.darkTheme {
+    filter: invert(17%) sepia(21%) saturate(859%) hue-rotate(201deg) brightness(92%) contrast(86%);
+}
+
+.img-link:hover .selectable-flag.lightTheme {
+    filter: brightness(120%)
+}
+
+.img-link:hover .selectable-flag.darkTheme {
+    filter: brightness(80%)
+}

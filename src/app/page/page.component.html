@@ -1,0 +1,119 @@
+<div class="Page" id="page">
+    <div class="Container">
+        <div class="Sidebar">
+            <div class="Id">
+                <h1>{{ name }}</h1>
+                <h3>{{ 'page.title' | translate }}</h3>
+            </div>
+            <div class="Sidebar-Section-Title">
+                <h3> {{ 'page.sections.contactInfo' | translate }} </h3>
+            </div>
+			<div class="Sidebar-Section">
+            @for (info of personalInfoList; track $index)
+            {
+                <div class="Row-View">
+                    <div class="Indicator">
+                        @if (info.image)
+                        {
+                            <img class="Icon-Inverted" src="{{ info.image }}"/>
+                        }
+                        @else if (info.identifier)
+                        {
+                            <p>{{ info.identifier }}</p>
+                        }
+                    </div>
+                    <p>{{ info.value }}</p>
+				</div>
+			}
+			</div>
+            <div class="Sidebar-Section-Title">
+                <h3> {{ 'page.sections.language' | translate }} </h3>
+            </div>
+            <div class="Sidebar-Section">
+                @for (lang of languageList; track $index)
+                {
+                    <div class="Row-View">
+                        <div class="Indicator">
+                            <img class="Icon" src="{{ lang.flag }}"/>
+                        </div>
+                        <p>{{ lang.name }}</p>
+                    </div>
+                    <p class="Sidebar-Note">{{lang.description }}</p>
+                }
+            </div>
+            <div class="Sidebar-Section-Title">
+                <h3> {{ 'page.sections.hobbies' | translate }} </h3>
+            </div>
+            <div class="Sidebar-Section">
+                @for (hobby of hobbyList; track $index)
+                {
+                    <div class="Row-View">
+                        <p class="Indicator"> ➤ </p>
+                        <p>{{ hobby.name }}</p>
+                    </div>
+                    @if (hobby.description)
+                    {
+                        <p class="Sidebar-Note">{{ hobby.description }}</p>
+                    }
+                }
+            </div>
+        </div>
+        <div class="Content">
+            <h2>{{ 'page.sections.education' | translate }}</h2>
+            <div class="Timeline">
+                <div class="Line"></div>
+                <div class="Items">
+                    @for (education of educationList; track $index)
+                    {
+                        <div class="Wrapper">
+                            <p>{{ education.duration }} <strong>{{ education.name }}</strong></p>
+                            <p>{{ education.specialization }}</p>
+                            <p class="Note">{{ education.university }}</p>
+                        </div>
+                    }
+                </div>
+            </div>
+            <h2>{{ 'page.sections.skills.name' | translate }}</h2>
+            @for (skillData of skillLists; track $index)
+            {
+                <h3 class="Section">{{ skillData.name }}</h3>
+                @for (skill of skillData.list; track $index)
+                {
+                    <div class="Row-View-Balanced">
+                        <div class="Line"></div>
+                        <div class="Wrapper">
+                            <div class="Row-View-Balanced">
+                                <div>{{ skill.name }}</div>
+                                <div>{{ skill.level }}</div>
+                            </div>
+                            @if (skill.description)
+                            {
+                                <p class="Note">{{ skill.description }}</p>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+            <h2>{{ 'page.sections.work' | translate }}</h2>
+            <div class="Timeline">
+                <div class="Line"></div>
+                <div class="Items">
+                    @for (item of workHistory; track $index)
+                    {
+                        <div class="Wrapper">
+                            <div class="Row-View-Balanced">
+                                <p>{{ item.startDate }} - {{ item.endDate }}</p>
+                                <p>{{ item.company }}</p>
+                            </div>
+                            <strong>{{ item.position }}</strong>
+                            @if (item.description)
+                            {
+                                <p class="Note">{{ item.description }}</p>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

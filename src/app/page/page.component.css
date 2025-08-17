@@ -1,0 +1,140 @@
+/* Background */
+.Page {
+    background: rgb(227,227,227);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    position: relative;
+    width: 210mm;
+    height: 297mm;
+    z-index: -1;
+}
+
+/* Common */
+h1, h2, h3, p, strong {
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p, strong {
+    font-size: 14px;
+}
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.Row-View,
+.Row-View-Balanced {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Row-View-Balanced {
+    justify-content: space-between;
+}
+
+.Icon,
+.Icon-Inverted {
+    width: 100%;
+    height: 100%;
+}
+
+.Icon-Inverted {
+    filter: invert(100%);
+}
+
+.Indicator {
+   padding-right: 5px;
+   width: 16px;
+}
+
+.Note,
+.Sidebar-Note {
+    width: 95%;
+    color: rgb(114, 159, 207);
+    font-size: 13px;
+}
+
+/* Sidebar */
+.Sidebar {
+    float: left;
+    width: 45%;
+    background-color: rgb(52, 101, 164) !important;
+}
+
+.Id {
+    margin: 8%;
+}
+
+.Sidebar-Section-Title {
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 9%;
+    background-color: rgb(114, 159, 207);
+}
+
+.Sidebar-Section {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-left: 8%;
+}
+
+.Sidebar-Note {
+    color: lightblue;
+}
+
+/* Content */
+.Content {
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    float: right;
+    color: black;
+    width: 47%;
+}
+
+.Timeline {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.Line {
+    width: 5%;
+    border-left: thick solid rgb(52, 101, 164);
+}
+
+.Spacer {
+    height: 20px;
+}
+
+.Section {
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+.Wrapper {
+    width: 95%;
+    padding-bottom: 5px;
+    margin-right: 5%
+}

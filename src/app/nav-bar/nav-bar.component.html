@@ -1,0 +1,31 @@
+<header [ngClass]="theme()">
+    <div class="left-nav">
+        <a class="img-link" href="https://www.linkedin.com/in/example-url">
+            <img class="selectable" [ngClass]="theme()" src="assets/icons/linkedin.svg">
+            <span class="tooltip-right">{{ 'navbar.linkedin' | translate }}</span>
+        </a>
+        <a class="img-link" href="https://github.com/ExampleUrl">
+            <img class="selectable" [ngClass]="theme()" src="assets/icons/github.svg">
+            <span class="tooltip-right">{{ 'navbar.code' | translate }}</span>
+        </a>
+    </div>
+    <div class="spacer"></div>
+    <div class="center-nav">
+        <app-img-dropdown [icon]="themeDropdownIcon" [items]="themes" [(theme)]="theme" (onSelected)="onSelected($event)"/>
+        <div class="img-link" (click)="printPdf.emit()">
+            <img class="selectable" [ngClass]="theme()" src="assets/icons/printer.svg">
+            <span class="tooltip-right">{{ 'navbar.print' | translate }}</span>
+        </div>
+    </div>
+    <div class="spacer"></div>
+    <div class="right-nav">
+        <div class="img-link">
+            <img class="selectable-flag" [ngClass]="theme()" src="assets/flags/pl.svg" (click)="changeLanguage('pl')">
+            <span class="tooltip-left">{{ 'navbar.pl' | translate }}</span>
+        </div>
+        <div class="img-link">
+            <img class="selectable-flag" [ngClass]="theme()" src="assets/flags/en.svg" (click)="changeLanguage('en')">
+            <span class="tooltip-left">{{ 'navbar.en' | translate }}</span>
+        </div>
+    </div>
+</header>

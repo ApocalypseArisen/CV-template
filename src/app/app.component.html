@@ -1,0 +1,6 @@
+<main [ngClass]="theme">
+    <app-nav-bar [(theme)]="theme" (printPdf)="printPdf()"/>
+    <app-page/>
+</main>
+
+<router-outlet />

@@ -1,0 +1,54 @@
+<div class="dropdown-icon" [ngClass]="theme()">
+    <img class="icon" [ngClass]="theme()" src={{icon()}}>
+    <div class="dropdown-menu" [ngClass]="theme()">
+        <div class="test">
+            @for (item of items(); track $index)
+            {
+                @if(item.id == 0)
+                {
+                    <div class="item-first" [ngClass]="theme()" (click)="onItemSelected(item.id)">
+                        @if(selected == item.id)
+                        {
+                            <div class="selected" [ngClass]="theme()"></div>
+                        }
+                        @else
+                        {
+                            <div class="deselected" [ngClass]="theme()"></div>
+                        }
+                        <img class="item-icon" [ngClass]="theme()" src={{item.icon}}>
+                        <span [ngClass]="theme()">{{item.label}}</span>
+                    </div>
+                }
+                @else if(item.id == (items().length - 1)) {
+                    <div class="item-last" [ngClass]="theme()" (click)="onItemSelected(item.id)">
+                        @if(selected == item.id)
+                        {
+                            <div class="selected" [ngClass]="theme()"></div>
+                        }
+                        @else
+                        {
+                            <div class="deselected" [ngClass]="theme()"></div>
+                        }
+                        <img class="item-icon" [ngClass]="theme()" src={{item.icon}}>
+                        <span [ngClass]="theme()">{{item.label}}</span>
+                    </div>
+                }
+                @else
+                {
+                    <div class="item" [ngClass]="theme()" (click)="onItemSelected(item.id)">
+                        @if(selected == item.id)
+                        {
+                            <div class="selected" [ngClass]="theme()"></div>
+                        }
+                        @else
+                        {
+                            <div class="deselected" [ngClass]="theme()"></div>
+                        }
+                        <img class="item-icon" [ngClass]="theme()" src={{item.icon}}>
+                        <span [ngClass]="theme()">{{item.label}}</span>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>

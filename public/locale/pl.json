@@ -1,0 +1,125 @@
+{
+    "navbar": {
+        "linkedin": "LinkedIn",
+        "code": "Kod źródłowy",
+        "themes": {
+            "system": "Motyw systemu",
+            "dark": "Motyw ciemny",
+            "light": "Motyw jasny"
+        },
+        "print": "Wydrukuj PDF",
+        "pl": "Polski",
+        "en": "English"
+    },
+    "page": {
+        "title": "Tytuł.",
+        "sections": {
+            "contactInfo": "Dane kontaktowe",
+            "language": "Języki",
+            "hobbies": "Zainteresowania",
+            "education": "Edukacja",
+            "skills": {
+                "name": "Umiejętności",
+                "programming": "Programowanie",
+                "frameworks": "Frameworki",
+                "technologies": "Technologie"
+            },
+            "work": "Historia zatrudnienia"
+        },
+        "languages": {
+            "en": {
+                "name": "Angielski",
+                "description": "Język ojczysty"
+            },
+            "pl": {
+                "name": "Polish",
+                "description": "Poziom języka/Certyfikaty."
+            },
+            "jp": {
+                "name": "Japoński",
+                "description": "Poziom języka/Certyfikaty."
+            }
+        },
+        "hobbies": {
+            "hobby1": {
+                "name": "Zainteresowanie 1",
+                "description": "Opis zainteresowania 1."
+            },
+            "hobby2": {
+                "name": "Zainteresowanie 2",
+                "description": "Opis zainteresowania 2."
+            },
+            "hobby3": "Zainteresowanie bez opisu"
+        },
+        "education": {
+            "eng": {
+                "name": "Nazwa stopnia",
+                "duration": "2017 - 2021",
+                "specialization": "Kierunek",
+                "university": "Nazwa uczelni"
+            },
+            "master": {
+                "name": "Nazwa stopnia",
+                "duration": "2022 - 2024",
+                "specialization": "Kierunek",
+                "university": "Nazwa uczelni"
+            }
+        },
+        "skills": {
+            "programming": {
+                "skill1": {
+                    "name": "Umijętność 1",
+                    "description": "Opis umijętności 1.",
+                    "level": "Poziom"
+                },
+                "skill2": {
+                    "name": "Umijętność 2",
+                    "description": "Opis umijętności 2.",
+                    "level": "Poziom"
+                },
+                "skill3": {
+                    "name": "Umijętność bez opisu",
+                    "level": "Poziom"
+                }
+            },
+            "frameworks": {
+                "skill4": {
+                    "name": "Framework 1",
+                    "description": "Opis Framework'a 1.",
+                    "level": "Poziom"
+                },
+                "skill5": {
+                    "name": "Framework bez opisu",
+                    "level": "Poziom"
+                }
+            },
+            "technologies": {
+                "skill6": {
+                    "name": "Technologia 1",
+                    "description": "Opis technologii 1.",
+                    "level": "Poziom"
+                },
+                "skill7": {
+                    "name": "Technologia bez opisu",
+                    "level": "Poziom"
+                }
+            }
+        },
+        "work": {
+            "1": {
+                "startDate": "Data rozpoczęcia",
+                "endDate": "Data zakończenia",
+                "position": "Pozycja",
+                "company": "Firma",
+                "description": "Opis obowiązków."
+            },
+            "2": {
+                "startDate": "Data rozpoczęcia",
+                "endDate": "Data zakończenia",
+                "position": "Pozycja",
+                "company": "Firma",
+                "description": "Opis obowiązków."
+            }
+        }
+    }
+}

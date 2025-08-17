@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created using Krita: https://krita.org -->
+
+<svg
+   width="576pt"
+   height="576pt"
+   viewBox="0 0 576 576"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="darkmode_select.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     inkscape:zoom="1.1085372"
+     inkscape:cx="689.64758"
+     inkscape:cy="433.90515"
+     inkscape:window-width="3390"
+     inkscape:window-height="1412"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" /><defs
+     id="defs1" /><g
+     id="group0"
+     transform="matrix(1.1994046,0,0,1.0642483,225.45741,430.77721)"
+     fill="none"><path
+       id="shape1"
+       transform="translate(1.1034486e-4,16.864)"
+       fill="#000000"
+       stroke-opacity="0"
+       stroke="#000000"
+       stroke-width="0"
+       stroke-linecap="square"
+       stroke-linejoin="bevel"
+       d="M 0.56089,4.107 46.5119,61.712 c 0.76,0.951 2.367,0.951 3.127,0 L 95.5949,4.103 c 0.547,-0.689 0.709,-1.716 0.414,-2.61 -0.061,-0.187 -0.129,-0.33 -0.186,-0.437 C 95.4719,0.406 94.7979,0 94.0579,0 H 2.09289 c -0.736,0 -1.414,0.405 -1.762,1.056 -0.059,0.109 -0.127,0.253 -0.184,0.426 -0.297,0.905 -0.1360003,1.934 0.414,2.625 z"
+       sodipodi:nodetypes="ccccccccccc" /></g><g
+     style="fill:#000000"
+     id="g1"
+     transform="matrix(10.309623,0,0,10.427872,111.56824,37.445055)"><path
+       d="M 18.44,34.68 A 18.22,18.22 0 0 1 15.5,34.44 18.18,18.18 0 0 1 0.5,13.58 18.06,18.06 0 0 1 9.59,0.63 2.42,2.42 0 0 1 12.2,0.79 2.39,2.39 0 0 1 13.2,3.2 L 11.9,3.1 13.13,3.32 A 15.66,15.66 0 0 0 23.34,21 v 0 a 15.82,15.82 0 0 0 8.47,0.53 2.44,2.44 0 0 1 2.66,3.47 18.18,18.18 0 0 1 -16.03,9.68 z M 10.67,2.89 A 15.67,15.67 0 0 0 5.67,25.66 15.66,15.66 0 0 0 32.18,24 18.49,18.49 0 0 1 22.53,23.36 18.18,18.18 0 0 1 10.67,2.89 Z"
+       id="path1" /></g></svg>
